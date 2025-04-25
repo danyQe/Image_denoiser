@@ -322,9 +322,8 @@ def show_prediction_graph(predictions):
                 bar.get_height() + 0.01, 
                 f"{prob:.2f}", 
                 ha='center',
-                fontweight='bold'
+                va='bottom'
             )
-        
         plt.tight_layout()
         return plt
     except Exception as e:
