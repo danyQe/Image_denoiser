@@ -1,0 +1,12 @@
+/.cursorignore
+/data
+/dataset
+/docs
+/notebooks
+/r.txt
+/references
+/results
+/testdata
+/utils
+/venv
+# models/noise_classifier.keras

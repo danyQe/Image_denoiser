@@ -1,0 +1,9 @@
+tensorflow==2.18.0
+numpy==1.26.4
+# opencv-python
+streamlit==1.40.0
+matplotlib>=3.5.0
+scikit-image>=0.19.0
+keras_hub
+opencv-python-headless
+Pillow
