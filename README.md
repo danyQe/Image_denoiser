@@ -11,7 +11,7 @@ A Streamlit-based application for automatic noise detection and image denoising 
 
 ## Demo
 
-🎥 **[Watch Demo Video](demo.mp4)**  
+🎥 **[Watch Demo Video](https://youtu.be/4tfvSqJcB7Q)**  
 🖼️ Below are sample images showing the noise detection and denoising process:
 
 | Noisy Image | Denoised Image |
