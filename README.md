@@ -47,7 +47,7 @@ A Streamlit-based application for automatic noise detection and image denoising 
    If you don't have a `requirements.txt`, install manually:
 
    ```powershell
-   pip install streamlit opencv-python-headless numpy tensorflow keras keras-hub scikit-image
+   pip install streamlit opencv-python-headless numpy tensorflow keras keras-hub scikit-image kaggle_hub
    ```
 
 ## Models
