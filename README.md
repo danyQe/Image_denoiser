@@ -17,7 +17,7 @@ A Streamlit-based application for automatic noise detection and image denoising 
 ## Installation
 1. Clone this repository:
    ```powershell
-   git clone https://github.com/your-username/image-denoiser.git
+   git clone https://github.com/danyQe/image-denoiser.git
    cd image-denoiser
    ```
 2. Create and activate a virtual environment:
@@ -35,15 +35,7 @@ A Streamlit-based application for automatic noise detection and image denoising 
    ```
 
 ## Models
-Place the following pre-trained models in the `models/` directory:
-- `noise_classifier.keras` — noise detection model
-- `ridnet_gaussian.keras` — Gaussian noise denoiser
-- `ridnet_speckle.keras` — Speckle noise denoiser
-- `ridnet_salt_and_pepper.keras` — Salt and Pepper noise denoiser
-- `ridnet_poisson.keras` — Poisson noise denoiser
-- `ridnet_multiplicative.keras` — Multiplicative noise denoiser
-- `ridnet_jpeg.keras` — JPEG noise denoiser
-- `ridnet_quantization.keras` — Quantization noise denoiser
+Models will be downloaded automatically from kagglehub api
 
 ## Usage
 1. Run the Streamlit app:
@@ -61,11 +53,6 @@ Place the following pre-trained models in the `models/` directory:
 ```
 .
 ├── app.py
-├── models/
-│   ├── noise_classifier.keras
-│   ├── ridnet_gaussian.keras
-│   ├── ridnet_speckle.keras
-│   └── ...
 ├── requirements.txt
 └── README.md
 ```
