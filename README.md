@@ -23,7 +23,7 @@ A Streamlit-based application for automatic noise detection and image denoising 
 ## Prerequisites
 - Python 3.11
 - Windows 10 (tested) or any OS with Python 3.11
-- CPU-only environment
+- supports cpu and gpu  environment
 
 ## Installation
 1. Clone this repository:
